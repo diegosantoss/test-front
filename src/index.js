@@ -1,12 +1,12 @@
 import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
-import * as serviceWorker from './serviceWorker'
+import * as serviceWorker from './serviceWorker';
+
+import InitialConfig from './initialConfig';
 
 const Strict = () => (
   <StrictMode>
-    <App />
+    <InitialConfig />
   </StrictMode>
 )
 
