@@ -1,0 +1,17 @@
+.content_order_success{
+  text-align: center;
+  padding: 8px 3% 13px 3%;
+}
+
+.content_order_success h2{
+  margin-top: 9px;;
+  color: #FF7800;
+  font-family: 'HelveticaNeueMedium';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.content_order_success img{
+  width: 40px;
+}

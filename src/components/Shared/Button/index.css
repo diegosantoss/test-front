@@ -1,0 +1,30 @@
+
+
+
+.content_button{
+  text-align: center;
+  border-radius: 3px;
+  background-color: #FF6C00;
+  box-shadow: inset 0 -3px 0 0 #D45A00, 0 2px 4px 0 rgba(0,0,0,0.25);
+  transition: all .1s linear;
+  cursor: pointer;
+  padding: 0;
+}
+
+.content_button:hover{
+  background-color: #D45A00;
+  box-shadow: none;
+}
+
+.button_redirect{
+  text-decoration: none;
+  color: #FFF;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  padding: 18px 0;
+  display: block;
+  font-family: 'HelveticaNeueMedium';
+}

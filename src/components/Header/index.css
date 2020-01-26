@@ -1,0 +1,25 @@
+.container_header{
+  width: 100%;
+  background-color: #FFF;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
+}
+
+.header_ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_a{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 13px;
+  display: block;
+  color: #CCC;
+}
+
+.header_a.active{
+  color: #FF7800;
+}

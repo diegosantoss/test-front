@@ -10,6 +10,6 @@ const Strict = () => (
   </StrictMode>
 )
 
-ReactDOM.render(<Strict />, document.getElementById('root'))
+ReactDOM.render(<Strict />, document.getElementById('belezanaweb'))
 
 serviceWorker.unregister()

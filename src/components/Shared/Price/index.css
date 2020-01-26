@@ -1,0 +1,8 @@
+.default_price{
+  width: 100%;
+  text-align: right;
+  color: #212122;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}

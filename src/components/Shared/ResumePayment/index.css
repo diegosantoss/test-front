@@ -1,0 +1,42 @@
+.content_resume_payment{
+  border-radius: 3px;
+  margin-bottom: 25px;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
+}
+
+.resume_payment_item{
+  padding-top: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resume_payment_item:last-child{
+  padding-bottom: 13px;;
+}
+
+.resume_payment_item h2{
+  font-size: 14px;
+  color: #212122;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.resume_payment_item h2.discount{
+  color: #FF7800;
+}
+
+.resume_payment_item ins.discount{
+  color: #FF7800;
+}
+
+.resume_payment_item h2.total{
+  margin-top: 10px;
+  font-family: 'HelveticaNeueMedium';
+}
+
+.resume_payment_item ins.total{
+  margin-top: 10px;
+  font-family: 'HelveticaNeueMedium';
+}

@@ -1,0 +1,6 @@
+.content_box{
+  width: 95%;
+  padding: 0 3%;
+  margin: auto auto 10px;
+  box-sizing: border-box;
+}

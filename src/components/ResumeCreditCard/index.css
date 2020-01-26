@@ -1,0 +1,21 @@
+.content_resume_credit_card{
+  border-radius: 3px;
+  background-color: #FFF;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
+  margin-bottom: 25px;
+}
+
+.resume_credit_card_title{
+  font-family: 'HelveticaNeueMedium';
+}
+
+.resume_credit_card_items{
+  padding: 13px 0;
+}
+
+.resume_credit_card_number, .resume_credit_card_name, .resume_credit_card_date{
+  color: #000;
+  font-family: 'HelveticaNeueLight';
+  font-size: 14px;
+  line-height: 17px;
+}

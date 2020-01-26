@@ -1,0 +1,27 @@
+.loading_spin{
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading_spinner{
+  width: 80px;
+  height: 80px;
+  border-top: 1px #FF7800 solid;
+  border-radius: 50%;
+  animation: spin .6s linear infinite;
+}
+
+@keyframes spin { 
+  from { 
+      transform: rotate(0deg); 
+  } to { 
+      transform: rotate(360deg); 
+  }
+}

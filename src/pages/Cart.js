@@ -1,12 +1,15 @@
 import React from 'react';
-import Product from '../components/Product'
+import Products from '../components/Products';
+import ResumePayment from '../components/Shared/ResumePayment';
+import Button from '../components/Shared/Button';
 
 const Cart = () => (
   <>
-  <Product />
-  <h1>cart</h1>
+    <Products />
+    <ResumePayment />
+    <Button to="/payment" text="SEGUIR PARA O PAGAMENTO" />
   </>
-)
+);
 
 export default Cart;
 

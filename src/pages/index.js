@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as CartActions from '../store/actions/checkout';
@@ -7,11 +7,13 @@ import * as CartActions from '../store/actions/checkout';
 // header
 import Header from '../components/Header';
 
+// loading
+import Loading from '../components/Shared/Loading';
+
 //pages
 const Cart = lazy(() => import('./Cart'));
 const Payment = lazy(() => import('./Payment'));
 const SuccessPage = lazy(() => import('./SuccessPage'));
-const NotFound = lazy(() => import('./NotFound'));
  
 class RoutesPages extends React.Component {
   constructor(props){
@@ -27,7 +29,8 @@ class RoutesPages extends React.Component {
       <>
         <Header />
         <Switch>
-          <Suspense fallback={ <h1>loading</h1> }>
+          <Suspense fallback={ <Loading /> }>
+            <Route component={() => <Redirect to="/cart" />} exact path='/' />
             <Route component={() => <Cart />} exact path='/cart' />
             <Route component={() => <Payment />} exact path='/payment' />
             <Route component={() => <SuccessPage />} exact path='/payment/success' />

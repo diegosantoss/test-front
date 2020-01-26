@@ -1,1 +1,17 @@
-@import './css/reset.css';
+@import '../assets/css/reset.css';
+@import '../assets/css/fonts.css';
+
+html, body{
+  background-color: #EEEEEE;
+  font-family: 'HelveticaNeueLight';
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.container{
+  width: 100%;
+  display: block;
+  background-color: transparent;
+}

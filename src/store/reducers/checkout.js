@@ -15,14 +15,13 @@ if(!!getFromStorage){
 }
 
 const checkout = (state = INITIAL_STATE, action) => {
-  if(action.type === 'SAVE_DATA'){
-    return { 
-      ...state, 
-      ...action.payload,
-      loaded: true
-     }
+  switch(action.type){
+    case 'SAVE_DATA':
+      return { ...state, ...action.payload, loaded: true }
+    default:
+      return { ...state }
   }
-  
+
   return { ...state };
 }
 
