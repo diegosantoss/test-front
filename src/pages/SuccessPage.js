@@ -6,13 +6,16 @@ import ResumeCreditCard from '../components/ResumeCreditCard';
 import ResumePayment from '../components/Shared/ResumePayment';
 import Button from '../components/Shared/Button';
 
+import './SuccessPage.css';
 
 const SuccessPage = () => (
   <>
     <OrderSuccess />
     <ResumeCreditCard />
-    <Products />
-    <ResumePayment />
+    <section className="content_success_page_resume_payment">
+      <Products />
+      <ResumePayment />
+    </section>    
     <Button to="/payment" text="voltar" />
   </>
 )

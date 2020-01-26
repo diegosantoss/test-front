@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px){
+  .content_success_page_resume_payment {
+    display: flex;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: 991px){
+  .content_success_page_resume_payment {
+    max-width: 970px;
+    margin: auto;
+  }
+}

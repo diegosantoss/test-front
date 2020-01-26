@@ -40,3 +40,9 @@
   margin-top: 10px;
   font-family: 'HelveticaNeueMedium';
 }
+
+@media screen and (min-width: 768px){
+  .content_resume_payment{
+    margin-top: 27px;
+  }
+}

@@ -1,6 +1,12 @@
 .content_box{
   width: 95%;
-  padding: 0 3%;
+  padding: 0 10px;
   margin: auto auto 10px;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 991px){
+  .content_box{
+    max-width: 950px;
+  }
 }
